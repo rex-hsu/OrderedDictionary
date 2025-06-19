@@ -90,7 +90,6 @@
 		80BFD076252B0D94002B3C05 /* MapFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFilterTests.swift; sourceTree = "<group>"; };
 		80BFD07D252B0E19002B3C05 /* UpdatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesTests.swift; sourceTree = "<group>"; };
 		80BFD0A7252B1C96002B3C05 /* InsertionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionsTests.swift; sourceTree = "<group>"; };
-		80DE329220F4CAFA0053EDA7 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		80DE329320F4DD910053EDA7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		80DE329420F4DD910053EDA7 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		80E8E21C1E20301E00395E49 /* OrderedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
@@ -136,7 +135,6 @@
 			children = (
 				80DE329320F4DD910053EDA7 /* README.md */,
 				80DE329420F4DD910053EDA7 /* LICENSE.md */,
-				80DE329220F4CAFA0053EDA7 /* Package.swift */,
 				8055B0521E201D24009DC3EE /* Sources */,
 				8055B0571E201DF3009DC3EE /* Tests */,
 				80B28EB31E201F81007E3A77 /* Supporting Files */,
