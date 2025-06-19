@@ -894,7 +894,7 @@ public struct OrderedDictionary<Key: Hashable, Value>: RandomAccessCollection, M
         return new
     }
     
-    internal mutating func _sort(
+    mutating func _sort(
         in range: Range<Index>,
         by areInIncreasingOrder: (Element, Element) throws -> Bool
     ) rethrows {
@@ -920,7 +920,7 @@ public struct OrderedDictionary<Key: Hashable, Value>: RandomAccessCollection, M
         _reverse(in: indices)
     }
     
-    internal mutating func _reverse(in range: Range<Index>) {
+    mutating func _reverse(in range: Range<Index>) {
         defer { _assertInvariant() }
         
         _orderedKeys[range].reverse()
@@ -962,7 +962,7 @@ public struct OrderedDictionary<Key: Hashable, Value>: RandomAccessCollection, M
         )
     }
     
-    internal mutating func _partition(
+    mutating func _partition(
         in range: Range<Index>,
         by belongsInSecondPartition: (Element) throws -> Bool
     ) rethrows -> Index {
